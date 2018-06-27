@@ -2,10 +2,6 @@
 
 URL Shortening Service:
 
-
-
-Imagine that you run a very popular URL shortening service (similar to bit.ly, is.gd, etc.), and want to prevent malicious users from masking phishing sites with your service. One way you might do this is to check submitted URLs against the PhishTank Web site to see if it considers them to be phishes. Using the information at http://www.phishtank.com/developer_info.php, implement a web service that performs this check. Because your service is so popular, it sees over 50 new URLs per second, so keep that in mind when interacting with PhishTank.
-
 Things I have done:
 1) Implemented the PhsihingAPI using the object oriented programming (Data Encapsulation)  to restrict the access of API key, methods and other variables. This prevents the direct modification of the data.
 2) Used the Django framework which is a MVC architecture used as a template(MTV), this is used to make web service calls in the backend.
